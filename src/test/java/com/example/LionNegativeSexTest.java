@@ -13,7 +13,7 @@ import static org.hamcrest.core.StringContains.containsString;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(MockitoJUnitRunner.class)
-public class LionNegativeTest {
+public class LionNegativeSexTest {
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
