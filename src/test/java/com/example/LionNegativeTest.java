@@ -24,6 +24,6 @@ public class LionNegativeTest {
     @Test
     public void doesHaveManeTest() throws Exception  {
         expectedException.expectMessage("Используйте допустимые значения пола животного - самец или самка");
-        Lion lion = new Lion(feline, "EEEE");
+        Lion lion = new Lion(feline, "Некорректный пол");
     }
 }
