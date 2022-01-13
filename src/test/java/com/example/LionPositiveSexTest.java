@@ -16,12 +16,12 @@ import static org.hamcrest.core.StringContains.containsString;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class LionPositiveSexTets {
+public class LionPositiveSexTest {
 
-    private String sex;
-    private boolean expectedResult;
+    private final String sex;
+    private final boolean expectedResult;
 
-    public LionPositiveSexTets(String sex, boolean expectedResult) {
+    public LionPositiveSexTest(String sex, boolean expectedResult) {
         this.sex = sex;
         this.expectedResult = expectedResult;
     }
